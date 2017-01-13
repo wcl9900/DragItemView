@@ -1,4 +1,4 @@
-package com.wcl.dragitemviewdemo;
+package com.wcl.dragitemview;
 
 import org.junit.Test;
 

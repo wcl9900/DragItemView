@@ -9,7 +9,8 @@ import android.widget.AbsListView;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.wcl.dragitemview.DragItemViewWrapper;
 
 import java.util.ArrayList;
 import java.util.List;
