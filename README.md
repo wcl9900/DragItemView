@@ -1,10 +1,10 @@
 # DragItemView
 列表视图拖拽库
 
-效果图
+#效果图
 ![name](https://raw.githubusercontent.com/wcl9900/DragItemView/master/dragitemview.gif)
 
-    使用方式
+#使用方式
     1.创建
     dragItemViewWrapper = new DragItemViewWrapper(absListView);
     
