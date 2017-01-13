@@ -2,6 +2,9 @@ package com.wcl.dragitemviewdemo;
 
 import android.os.Bundle;
 
+/**
+ * GridView视图
+ */
 public class GridViewActivity extends AbsListViewActivity {
 
     @Override

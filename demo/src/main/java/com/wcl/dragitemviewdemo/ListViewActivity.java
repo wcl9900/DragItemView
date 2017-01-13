@@ -2,6 +2,9 @@ package com.wcl.dragitemviewdemo;
 
 import android.os.Bundle;
 
+/**
+ * ListView视图
+ */
 public class ListViewActivity extends AbsListViewActivity {
 
     @Override

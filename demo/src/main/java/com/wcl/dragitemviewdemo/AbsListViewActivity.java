@@ -14,6 +14,9 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * AbsListView视图
+ */
 public class AbsListViewActivity extends Activity {
 
     TextView tvInfo;
