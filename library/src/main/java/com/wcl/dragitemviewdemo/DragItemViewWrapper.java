@@ -114,8 +114,6 @@ public class DragItemViewWrapper implements OnTouchListener {
 
 	private float action_static_speed = 2;
 	private boolean action_static_enable = true;
-	
-	private boolean dragGroupEnable = false;
 
 	private boolean dragEnable = true;
 	
@@ -292,15 +290,7 @@ public class DragItemViewWrapper implements OnTouchListener {
 	public boolean isDraging(){
 		return isDraging;
 	}
-	
-	/**
-	 * 如果当前列表为ExpandListView，通过此标志可设定是否支持组视图可以拖动。
-	 * @param dragGroupEnable
-	 */
-	public void setDragGroupEnable(boolean dragGroupEnable){
-		this.dragGroupEnable = dragGroupEnable;
-	}
-	
+
 	/**
 	 * 设定拖动震动时间
 	 * @param vibratorTime 毫秒时间
