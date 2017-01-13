@@ -5,6 +5,9 @@
 ![name](https://raw.githubusercontent.com/wcl9900/DragItemView/master/dragitemview.gif)
 
     使用方式
+    1.创建
+    dragItemViewWrapper = new DragItemViewWrapper(absListView);
+    
     1.拖动监听回调
     private DragItemViewWrapper.OnDragItemListener dragItemListener = new DragItemViewWrapper.OnDragItemListener() {
         @Override
