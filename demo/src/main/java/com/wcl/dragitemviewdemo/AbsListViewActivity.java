@@ -36,6 +36,10 @@ public class AbsListViewActivity extends Activity {
 
         dragItemViewWrapper = new DragItemViewWrapper(absListView);
         dragItemViewWrapper.setOnDragListener(dragItemListener);
+//        dragItemViewWrapper.setDragDegree(45);//设定可拖拽角度
+//        dragItemViewWrapper.setDragEnable(true);//是否可拖拽
+//        dragItemViewWrapper.setDragVibratorEnable(true);//设定拖拽震动反馈
+//        dragItemViewWrapper.setOverCancelEnable(true);//拖拽相对item视图区域可取消结束回调
 
         //可通过此接口设定需要产生拖拽镜像的视图，不设定此接口时默认会遍历选择ImageView视图
         dragItemViewWrapper.setOnImageViewGetListener(new DragItemViewWrapper.onImageViewGetListener() {
