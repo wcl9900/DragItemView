@@ -1,6 +1,5 @@
 # DragItemView
-列表视图拖拽库
-
+列表视图拖拽库，可支持所有集成AbsListView的列表视图，如ListView、GridView等。
 #效果图
 ![name](https://raw.githubusercontent.com/wcl9900/DragItemView/master/dragitemview.gif)
 
