@@ -1,10 +1,18 @@
 # DragItemView
-列表视图拖拽库
+列表视图Item拖拽，可镜像拖动Item View并回调监听拖动的动作事件
 
 #效果图
 ![name](https://raw.githubusercontent.com/wcl9900/DragItemView/master/dragitemview.gif)
 
 #使用方式
+
+    Gradle
+    repositories {
+        jcenter()
+    }
+    compile 'com.wcl:dragitemview:1.0.0'
+    
+    
     1.创建
     dragItemViewWrapper = new DragItemViewWrapper(absListView);
     
